@@ -43,7 +43,7 @@ const createTemplate = (res) => {
     let name = document.createElement("span");
     name.setAttribute("class", "whiteText");
     let value = document.createElement("span");
-    value.classList.add("goldText", "testing");
+    value.classList.add("goldText", "priceVal");
     name.innerHTML = formatString(ele.name);
     inp = ele.value.toString();
     if (isNaN(inp)) {
